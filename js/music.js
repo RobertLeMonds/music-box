@@ -1,37 +1,37 @@
 $(document).ready(function(){
    var cNote = document.getElementById('cAudio');
     
-    $('#c').mouseover(function(){
+    $('#c').mousedown(function(){
     cNote.currentTime = 0;
     cNote.play();
 });
     var dNote = document.getElementById('dAudio');
-    $('#d').mouseover(function(){
+    $('#d').mousedown(function(){
     dNote.currentTime = 0;
     dNote.play();
 });
     var eNote = document.getElementById('eAudio');
-    $('#e').mouseover(function(){
+    $('#e').mousedown(function(){
     eNote.currentTime = 0;
     eNote.play();
 }); 
     var fNote = document.getElementById('fAudio');
-    $('#f').mouseover(function(){
+    $('#f').mousedown(function(){
     fNote.currentTime = 0;
     fNote.play();
 });
     var gNote = document.getElementById('gAudio');
-    $('#g').mouseover(function(){
+    $('#g').mousedown(function(){
     gNote.currentTime = 0;
     gNote.play();
 });
     var aNote = document.getElementById('aAudio');
-    $('#a').mouseover(function(){
+    $('#a').mousedown(function(){
     aNote.currentTime = 0;
     aNote.play();
 });
     var bNote = document.getElementById('bAudio');
-    $('#b').mouseover(function(){
+    $('#b').mousedown(function(){
     bNote.currentTime = 0;
     bNote.play();
 });
