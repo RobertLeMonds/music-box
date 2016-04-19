@@ -1,6 +1,6 @@
 $(document).ready(function(){
+    //below are the variables/functions that enable music to play //
    var cNote = document.getElementById('cAudio');
-    
     $('#c').mousedown(function(){
     cNote.currentTime = 0;
     cNote.play();
